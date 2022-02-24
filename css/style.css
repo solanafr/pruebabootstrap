@@ -25,8 +25,9 @@ body {
     padding-left: 60px;
 }
 
-
-
+.index__subtitle {
+    text-align: center;
+}
 
 
 .contacto__title {
@@ -42,5 +43,14 @@ body {
 
 .footer__text {
     color: white;
+    text-align: center;
+}
+
+.img-thumbnail {
+    height: 300px;
+    width: auto;
+}
+
+.index__description {
     text-align: center;
 }
