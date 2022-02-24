@@ -11,3 +11,20 @@ body {
 .navbar {
     background-color: orange; 
 }
+
+
+.contacto__title {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer {
+    background-color: black;
+    height: 25px;
+    width: 100%;
+}
+
+.footer__text {
+    color: white;
+    text-align: center;
+}
