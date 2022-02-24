@@ -1,52 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <script src="js/bootstrap.bundle.min.js"></script>
-    <link rel="shortcut icon" href="../images/favicon-avion.png" type="image/x-icon">
+    <link rel="shortcut icon" href="images/favicon-avion.png" type="image/x-icon">
     <title>Blog de viajes</title>
-
 </head>
+
+<!--BODY-->
+
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light">
+
+    <!--NAV-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Logo</a>
+            <a class="navbar-img" href="index.html">
+                <img src="images/favicon-avion.png" alt="logo" width="30" height="24">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                aria-expanded="false" aria-label="Toggle navigation">
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                        <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/sobre-mi.html">Sobre Mi</a>
+                        <a class="nav-link text-white" href="pages/sobre-mi.html">Sobre Mi</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/destinos.html" >Destinos</a>
+                        <a class="nav-link text-white" href="pages/destinos.html">Destinos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/nomade-digital.html">Nomade Digital</a>
+                        <a class="nav-link text-white" href="pages/nomade-digital.html">Nomade Digital</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="pages/contacto.html">Contacto</a>
+                        <a class="nav-link text-white" href="pages/contacto.html">Contacto</a>
                     </li>
                 </ul>
                 <form class="d-flex">
                     <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    <button class="btn btn-light" type="submit">Buscar</button>
                 </form>
             </div>
         </div>
     </nav>
-    <header></header>
+
+    <!--HEADER-->
+    <header>
+        <h1 class="blog__title"> Titulo del Blog </h1>
+    </header>
+
+    <!--MAIN-->
     <main class="container"></main>
+
+    <!--FOOTER-->
     <footer></footer>
 </body>
+
 </html>

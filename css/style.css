@@ -12,6 +12,22 @@ body {
     background-color: orange; 
 }
 
+.blog__title {
+    text-align: center;
+    color: white;
+    padding-top: 150px;
+    font-size: 75px;
+    height: 400px;
+    width: 100%;
+    background-image: url(../images/ruta-foto-portada.png);
+    background-repeat: no-repeat;
+    background-color: gray;
+    padding-left: 60px;
+}
+
+
+
+
 
 .contacto__title {
     text-align: center;
