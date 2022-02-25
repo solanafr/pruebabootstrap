@@ -30,6 +30,15 @@ body {
     padding-top: 40px;
 }
 
+.index__description {
+    text-align: center;
+}
+
+.img-thumbnail {
+    height: 300px;
+    width: auto;
+}
+
 
 .contacto__title {
     text-align: center;
@@ -47,11 +56,3 @@ body {
     text-align: center;
 }
 
-.img-thumbnail {
-    height: 300px;
-    width: auto;
-}
-
-.index__description {
-    text-align: center;
-}
